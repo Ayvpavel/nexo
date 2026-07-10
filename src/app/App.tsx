@@ -1,10 +1,9 @@
-import { Counter } from '../components/Counter'
+import { MessagesPage } from "../pages/MessagesPage/ui/messages-page";
 
-export default function App() {
+export const App = () => {
   return (
-    <div className='app'>
-      <div>Привет Настя 😊</div>
-      <Counter />
+    <div className="app">
+      <MessagesPage />
     </div>
-  )
-}
+  );
+};
