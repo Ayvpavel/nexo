@@ -1,5 +1,5 @@
-import { ChatList } from "../../../shared/widgets/ChatList/ui/chat-list";
+import { MainPage } from "../../MainPage/index.ts"
 
 export const MessagesPage = () => {
-  return <ChatList />;
-};
+  return <MainPage />
+}
